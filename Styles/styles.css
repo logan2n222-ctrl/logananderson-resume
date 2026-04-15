@@ -1,6 +1,52 @@
 body {
-            font-family:Arial, Helvetica, sans-serif;
-            font-size: 15px;
-            color: rgb(67, 127, 238);}
-         h1, h2 { 
-            color: rgb(37, 91, 192);}
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(67, 127, 238);
+}
+
+h1,
+h2 {
+    color: rgb(37, 91, 192);
+    text-align:left ;
+    text-indent: 40px;
+}
+
+ol{
+    font-weight: bold;
+}
+
+ul{
+    font-weight: normal;
+}
+.center{
+    text-align: center;
+}
+.bold{
+    font-weight: 775;
+}
+.container {            /* used Ai help here */
+  display:flex ;             /* Lines images up side-by-side */
+  justify-content: center;   /* Centers them horizontally */
+  gap: 20px;                 /* Adds space between the images */
+}
+.height{
+    height: 200px;
+    width: auto;
+}
+.scratchbg{
+    background-color: rgb(198, 198, 198);
+}
+header{
+    background-color: rgb(177, 176, 176);
+    padding: 5px;
+    text-indent: 10px;
+    display: flex;
+    align-items: center;
+}
+.right{
+    text-align: right;
+}
+.italic{
+    font-style: italic;
+}
+
